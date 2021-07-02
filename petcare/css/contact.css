@@ -1,0 +1,157 @@
+:any-link
+{
+  text-decoration: none;
+}
+*{
+  margin: 0% 0%;
+}
+body
+{
+  overflow-x: hidden;
+}
+.navbar
+{
+  background-color: white;
+  margin: 0mm ;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li
+{
+  float: left;;
+  list-style: none;  
+  color: white;
+  margin : 15px 13px;
+}
+.navbar li a
+{
+  padding: 15px 15px;
+  text-decoration: none;
+  color: purple;
+  transition-property: color;
+}
+.navbar li:hover
+{
+  text-decoration: underline purple;
+}
+.navbar li a:active
+{
+  color: rgb(26, 1, 26);
+}
+.container{
+    display:flex;
+    width: 100vw;
+    height: 80vh;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-align: center;
+  }
+  body
+  {
+    background-color: rgb(233, 213, 233);
+  }
+
+
+  .item{
+    border: 4px solid black;
+    margin:20px;
+    padding:20px;
+    border-radius: 6px;
+  }
+  .top{
+    text-align: center;
+    order:1;
+    float:top;
+  }
+  #contact{
+    font-weight: bold;
+    color: purple;
+    text-shadow: 6px 6px 6px rgb(187, 107, 187);
+  }
+  #boxtop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(92, 3, 92);
+}
+  #msg
+  {
+    height:60px;
+  }
+  #form{
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.52s ;
+}
+#form:hover
+{
+    transform: scale(1.1);
+}
+  input{
+    align-content: center;
+    border:2px solid black;
+  }
+  #image{
+    padding:0px;
+    padding-bottom: 0px;
+    border:none;
+  }
+  input{
+    opacity:1;
+  }
+  form{
+    font-weight: bold;
+    color: black;
+  }
+  #btn{
+    cursor: pointer;
+  }
+  #btn :active{
+    opacity:1;
+    border:2px solid black;
+    width:100px;
+  }
+  #home{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(92, 3, 92);
+    text-shadow: 6px 6px 6px rgb(156, 74, 156);
+  }
+  #ques{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    color: rgb(63, 7, 63);
+  }
+  #help{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  #btn
+  {
+      background-color:purple;
+      height: 50px;
+      width: 100px;
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px rgb(63, 1, 63);
+  }
+  .container2{
+    display: flex;
+    height: 30vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(31, 2, 31);
+  }
+  .box{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

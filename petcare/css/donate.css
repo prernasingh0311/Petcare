@@ -1,0 +1,143 @@
+:any-link
+{
+  text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.navbar
+{
+  /* border: 2px solid black; */
+  width: 100%;
+  background-color: white;
+  margin-block-start: 0mm ;
+ 
+}
+
+.navbar ul{
+  overflow: auto;
+}
+
+.navbar li
+{
+  float: left;;
+  list-style: none;  
+  color: white;
+  margin : 15px 13px; 
+}
+.navbar li a
+{
+  padding: 15px 15px;
+  text-decoration: none;
+  color: purple;
+    transition-property: color;
+}
+.navbar li:hover
+{
+  text-decoration: underline purple;
+}
+.navbar li a:active
+{
+  color: rgb(26, 1, 26);
+}
+
+.boxxxx{
+  height: 100vh;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+}
+
+.wrapper{
+  padding-top: 20vh;
+  margin-left: 4vw;
+  display: flex;
+}
+.wrapper .static-txt{
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #664615;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  border-left: 2px solid white;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+.parallax-slide {
+  height: 0vh;
+}
+.content-slide {
+  height: 100vh;
+  background: #fff;
+  text-align: center;
+}
+
+#content1 {
+  background-color: rgb(0, 0, 0);
+  text-align:center; 
+  font-family:"Times New Roman"; 
+  font-size: 30px;
+} 
+
+.marq {
+    margin-top: 5vh;
+    color: white;
+    text-align: center;
+}
+.box {
+    padding: 3vh;
+}
+.head {
+    font-size: 3vh;
+    font-family: 'Monoton', cursive;
+}

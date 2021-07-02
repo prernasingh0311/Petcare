@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+body
+{
+      
+  background-image: url(https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover; 
+}
+:any-link
+{
+  text-decoration: none;
+}
+.navbar
+{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li
+{
+  float: left;;
+  list-style: none;  
+  color: white;
+  margin : 15px 13px; 
+}
+.navbar li a
+{
+  padding: 15px 15px;
+  text-decoration: none;
+  color: purple;
+  transition-property: color;
+}
+.navbar li:hover
+{
+  text-decoration: underline purple;
+}
+.navbar li a:active
+{
+  color: rgb(26, 1, 26);
+}
+.box
+{
+    height: 80vh;
+    width: 23vw;
+    color:black;
+    background-color: white;
+    margin-top: 3vh;
+    margin-left: 12vw;
+    border-radius: 2vw;
+    transition-duration: 0.52s;
+    box-shadow: 6px 7px 10px rgb(150, 148, 148);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box:hover
+{
+    transform: scale(1.05);
+}
+.button
+{
+   
+    margin-top: 2vh;
+    flex-wrap: wrap;
+ }
+ 
+ .button input
+ {
+   height: 5vh;
+   width: 15vw;
+   background-color: rgb(243, 210, 243);
+
+ }
+.submit
+{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: purple;
+    text-decoration: none;
+    height: 8vh;
+    width: 15vw;
+    box-shadow: 4px 4px 4px rgb(66, 0, 66);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Register img
+{
+
+   height: 10vh;
+   width: 7vw;
+    margin: 2vw 18vh;
+    flex-wrap: wrap;
+}

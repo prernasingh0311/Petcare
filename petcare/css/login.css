@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:any-link
+{
+text-decoration: none;
+}
+.navbar
+{
+background-color: white;
+margin-block-start: 0mm ;
+}
+.navbar ul{
+overflow: auto;
+}
+.navbar li
+{
+float: left;;
+list-style: none;  
+color: white;
+margin : 15px 13px; 
+}
+.navbar li a
+{
+padding: 15px 15px;
+text-decoration: none;
+color: purple;
+transition-property: color;
+}
+.navbar li:hover
+{
+text-decoration: underline purple;
+}
+.navbar li a:active
+{
+color: rgb(26, 1, 26);
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.box
+{
+  height: 80vh;
+  width: 23vw;
+  float: left;
+  margin-top: 3vh;
+  color:black;
+  background-color: white;
+  margin-left: 12vw;
+  border-radius: 2vw;
+  transition-duration: 0.52s;
+  box-shadow: 6px 7px 10px rgb(150, 148, 148);
+}
+.box:hover
+{
+  transform: scale(1.05);
+}
+.button input
+{
+ height: 5vh;
+ width: 15vw;
+ background-color: rgb(243, 210, 243);
+}
+.submit
+{
+  color: whitesmoke;
+  cursor: pointer;
+  background-color: purple;
+  width: 15vw;
+  height: 8vh;
+  text-decoration: none;
+  box-shadow: 4px 4px 4px rgb(66, 0, 66);
+  border-radius: 5px;
+}
+
+#login img
+{
+  height: 10vh;
+  width: 7vw;
+   margin: 2vw 10vh;
+   flex-wrap: wrap;
+
+}

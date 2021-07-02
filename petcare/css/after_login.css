@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  :any-link
+  {
+  text-decoration: none;
+  }
+  .navbar
+  {
+  background-color: white;
+  margin-block-start: 0mm ;
+  }
+  .navbar ul{
+  overflow: auto;
+  }
+  .navbar li
+  {
+  float: left;;
+  list-style: none;  
+  color: white;
+  margin : 15px 13px; 
+  }
+  .navbar li a
+  {
+  padding: 15px 15px;
+  text-decoration: none;
+  color: purple;
+  transition-property: color;
+  }
+  .navbar li:hover
+  {
+  text-decoration: underline purple;
+  }
+  .navbar li a:active
+  {
+  color: rgb(26, 1, 26);
+  }
+  .container{
+    /*display: flex;*/
+    width: 95vw;
+    height: 23vw;
+    /*justify-content: center;*/
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/07/06/16/dogs-1501963_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h2{
+    text-align: center;
+    color: purple;
+    font-size: 3vw;
+    text-shadow: 1px 3px 3px black ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #hr1{
+    width: 90vw;
+    color: purple;
+    height: 1.5vw;
+    background-color: purple;
+  }
+  /*.container1{*/
+  /*  width: 100vw;*/
+  /*  height: 70vw;*/
+  /*  align-items: center;*/
+  /*  background-color: white;*/
+  /*  text-align: center;*/
+  /*  border-right: 2.5px solid black;*/
+  /*  border-top-left-radius: 12px;*/
+  /*  border-bottom-left-radius: 12px;*/
+  /*  transition-duration: 0.1s;*/
+  /*  box-shadow: 0px 0px 11px black;*/
+
+
+  /*}*/
+  form{
+      margin-top: 7vw;
+    margin-left: 17vw;
+    width: 65vw;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    border-right: 2.5px solid black;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    transition-duration: 0.1s;
+    box-shadow: 0px 0px 11px black;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  /*#box1{*/
+  /*  width: 40vw;*/
+  /*  height: 60vw;*/
+  /*  background-color: white;*/
+  /*  text-align: center;*/
+  /*  border-right: 2.5px solid black;*/
+  /*  border-top-left-radius: 12px;*/
+  /*  border-bottom-left-radius: 12px;*/
+  /*  transition-duration: 0.1s;*/
+  /*  box-shadow: 0px 0px 11px black;*/
+  /*}*/
+  /*#box1:hover{*/
+  /*  transform: scale(1.1);*/
+  /*}*/
+  /*#box2{*/
+  /*  width: 40vw;*/
+  /*  height: 40vw;*/
+  /*  background-color: white;*/
+  /*  text-align: center;*/
+  /*  border-top-right-radius: 12px;*/
+  /*  border-bottom-right-radius: 12px;*/
+  /*  transition-duration: 0.1s;*/
+  /*  border-left: 2.5px solid black;*/
+  /*  box-shadow: 0px 0px 11px black;*/
+  /*}*/
+  /*#box2:hover{*/
+  /*  transform: scale(1.1);*/
+  /*}*/
+  .box h3{
+    margin-top: 10px;
+    font-size: 2.7vw;
+    color: purple;
+  }
+  .box hr{
+    width: 18vw;
+  }
+  form p{
+    font-size: 1.6vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 1.5vw;
+  }
+  input{
+    margin-top: 6px;
+    width: 14vw;
+    height: 1.8vw; 
+  }
+  button{
+    font-weight: bold;
+    color: black;
+    font-size: 1.8vw;
+    background-color: purple;
+    width: 8vw;
+    height: 3.5vw;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 3px 7px 11px black;
+  }
+  body{
+    overflow-x: hidden;
+    background-color: rgb(242, 213, 245);
+  }
+  span{
+    font-size: 1.4vw;
+  }
